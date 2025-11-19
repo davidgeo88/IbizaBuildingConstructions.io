@@ -185,7 +185,7 @@
 									<div class="phone_numb">
 										<div class="phone_numb_in">
 											<img src="img/call.png" alt=""/>
-											<p>Alexander <span><a style="color: white;" href="tel:++41 779 819 363">+41 779 819 363</a></span>
+											<p>Alexander <span><a style="color: white;" href="tel:++41 779 819 363">+34 651 638  333</a></span>
 											</p>
 										</div>
 									</div>
@@ -629,3 +629,4 @@
 </body>
 
 </html>
+
