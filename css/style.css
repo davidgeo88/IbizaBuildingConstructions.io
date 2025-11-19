@@ -9964,3 +9964,42 @@ h1, h2, h3, h4, h5, h6 {
 		padding: 46px 20px 20px 20px;
 	}
 }
+/* Basic container styling */
+.container1 {
+    width: 92%;
+    margin: auto;
+    position: relative;
+}
+
+/* Editable div where you can add text */
+.editable-div {
+    contenteditable: true;
+    border: 0px transparent #;
+    padding: 10px;
+    position: relative;
+}
+
+/* The image inside the div */
+.editable-image {
+    width: 700px; /* Default width (adjust as needed) */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Prevent image from overflowing its container */
+    position: center; /* To move image */
+    top: 0; /* Adjust the vertical position */
+    left: 0; /* Adjust the horizontal position */
+    cursor: pointer; /* Indicating the image is interactive */
+}
+
+/* Example of resizable image (you can set these values dynamically) */
+.editable-image:hover {
+    transform: scale(1.1); /* Slight scale on hover for better UX */
+    transition: transform 0.7s ease-in-out;
+}
+
+/* Optional: Set bounds for moving image within its container */
+.image_holder {
+    position: relative;
+    width: 100%;
+    height: 160px; /* Fixed height for the container */
+    border: 0px dashed #ddd; /* Visual indicator */
+}
